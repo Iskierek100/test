@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons>
+    <addon id="plugin.close.kodi" name="[COLOR red] Force Close Kodi[/COLOR] " version="2026.05.14.1" provider-name="Based_Skid">
+        <extension point="xbmc.python.pluginsource" library="default.py">
+            <provides>executable</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">Force Close Kodi</summary>
+            <description lang="en" />
+            <platform>all</platform>
+        </extension>
+    </addon>
+    <addon id="plugin.video.Iskierek-IPTV-Full" name="[COLOR yellow]Iskierek[/COLOR] [COLOR aqua]IPTV[/COLOR] [COLOR red]FULL[/COLOR]" version="2026.05.14.1" provider-name="Iskierek">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.six" />
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="default.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.service" library="service.py" start="startup" />
+        <extension point="xbmc.addon.metadata">
+            <summary lang="pl">Rozbudowany kombajn IPTV: Stalker, Xtream, M3U, VOD, eksport M3U i Polska TV PRO.</summary>
+            <description lang="pl">
+      Iskierek IPTV Full to kompleksowa wtyczka IPTV dla Kodi obsługująca:
+      - Stalker / MAC
+      - Xtream Codes
+      - M3U (URL i plik lokalny)
+
+      Funkcje:
+      - Inteligentne sortowanie polskich kanałów
+      - Własne grupy i poprawianie nazw kanałów
+      - Ukrywanie kanałów i personalizacja list
+      - Obsługa VOD i seriali (z możliwością pobierania)
+      - Eksport M3U (pełna lista lub pojedyncze grupy)
+      - Kontrola rodzicielska z PIN
+      - Obsługa proxy / f4mTester
+      - Zewnętrzne EPG XMLTV z buforowaniem
+
+      Wtyczka zaprojektowana jako rozbudowany system IPTV typu "All-in-One".
+    </description>
+            <summary lang="en">Advanced All-in-One IPTV addon: Stalker, Xtream, M3U, VOD and Smart Polish TV sorting.</summary>
+            <description lang="en">
+      Iskierek IPTV Full is a powerful all-in-one IPTV addon for Kodi supporting:
+      - Stalker / MAC portals
+      - Xtream Codes
+      - M3U playlists (URL and local file)
+
+      Features:
+      - Smart Polish channel sorting engine
+      - Custom groups and channel renaming
+      - Channel hiding and personalization
+      - VOD and Series support with download option
+      - M3U export (full list or single groups)
+      - Parental control with PIN protection
+      - Proxy / f4mTester support
+      - External XMLTV EPG with caching
+    </description>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+                <screenshot>resources/media/listadostawców.jpg</screenshot>
+                <screenshot>resources/media/menu.jpg</screenshot>
+                <screenshot>resources/media/grupy.jpg</screenshot>
+                <screenshot>resources/media/kanały.jpg</screenshot>
+                <screenshot>resources/media/przewodnik.jpg</screenshot>
+            </assets>
+            <news>
+      [B]Wersja 1.0.0.0[/B]
+      - Obsługa Stalker / MAC
+      - Obsługa Xtream Codes
+      - Obsługa M3U (URL i plik lokalny)
+      - Inteligentne sortowanie Polskiej TV
+      - Eksport M3U (pełna lista i grupy)
+      - VOD i seriale z możliwością pobierania
+      - Kontrola rodzicielska (PIN)
+      - Obsługa zewnętrznego EPG XMLTV
+    </news>
+            <platform>all</platform>
+        </extension>
+    </addon>
+    <addon id="plugin.video.Iskierek-IPTV" name="[COLOR yellow]Iskierek[/COLOR] [COLOR aqua]IPTV[/COLOR] [COLOR red]FULL[/COLOR]" version="2026.05.14.1" provider-name="Iskierek">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="script.module.six" />
+            <import addon="inputstream.ffmpegdirect" />
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="default.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.service" library="service.py" start="startup" />
+        <extension point="xbmc.addon.metadata">
+            <summary lang="pl">Rozbudowany kombajn IPTV: Stalker, Xtream, M3U, VOD, eksport M3U i Polska TV PRO.</summary>
+            <description lang="pl">
+      Iskierek IPTV Full to kompleksowa wtyczka IPTV dla Kodi obsługująca:
+      - Stalker / MAC
+      - Xtream Codes
+      - M3U (URL i plik lokalny)
+
+      Funkcje:
+      - Inteligentne sortowanie polskich kanałów
+      - Własne grupy i poprawianie nazw kanałów
+      - Ukrywanie kanałów i personalizacja list
+      - Obsługa VOD i seriali (z możliwością pobierania)
+      - Eksport M3U (pełna lista lub pojedyncze grupy)
+      - Kontrola rodzicielska z PIN
+      - Obsługa proxy / f4mTester
+      - Zewnętrzne EPG XMLTV z buforowaniem
+
+      Wtyczka zaprojektowana jako rozbudowany system IPTV typu "All-in-One".
+    </description>
+            <summary lang="en">Advanced All-in-One IPTV addon: Stalker, Xtream, M3U, VOD and Smart Polish TV sorting.</summary>
+            <description lang="en">
+      Iskierek IPTV Full is a powerful all-in-one IPTV addon for Kodi supporting:
+      - Stalker / MAC portals
+      - Xtream Codes
+      - M3U playlists (URL and local file)
+
+      Features:
+      - Smart Polish channel sorting engine
+      - Custom groups and channel renaming
+      - Channel hiding and personalization
+      - VOD and Series support with download option
+      - M3U export (full list or single groups)
+      - Parental control with PIN protection
+      - Proxy / f4mTester support
+      - External XMLTV EPG with caching
+    </description>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+                <screenshot>resources/media/listadostawców.jpg</screenshot>
+                <screenshot>resources/media/menu.jpg</screenshot>
+                <screenshot>resources/media/grupy.jpg</screenshot>
+                <screenshot>resources/media/kanały.jpg</screenshot>
+                <screenshot>resources/media/przewodnik.jpg</screenshot>
+            </assets>
+            <news>
+      [B]Wersja 1.0.0[/B]
+      - Obsługa Stalker / MAC
+      - Obsługa Xtream Codes
+      - Obsługa M3U (URL i plik lokalny)
+      - Inteligentne sortowanie Polskiej TV
+      - Eksport M3U (pełna lista i grupy)
+      - VOD i seriale z możliwością pobierania
+      - Kontrola rodzicielska (PIN)
+      - Obsługa zewnętrznego EPG XMLTV
+    </news>
+            <platform>all</platform>
+        </extension>
+    </addon>
+    <addon id="plugin.video.playpuls" name="Play PULS" version="2026.05.14.1" provider-name="lg">
+        <requires>
+            <import addon="script.module.requests" />
+            <import addon="script.module.inputstreamhelper" />
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="addon.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <description lang="pl">Play PULS</description>
+            <disclaimer lang="pl">Play PULS
+        </disclaimer>
+            <summary lang="en">Play PULS</summary>
+            <description lang="en">Play PULS</description>
+            <disclaimer lang="en">Play PULS
+        </disclaimer>
+            <language>pl</language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+            <website />
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+            <reuselanguageinvoker>true</reuselanguageinvoker>
+        </extension>
+    </addon>
+    <addon id="plugin.video.spryciarze" name="Spryciarze.pl" version="2026.05.14.1" provider-name="notoco + AI">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0" />
+            <import addon="plugin.video.youtube" version="6.0.0" />
+            <import addon="script.module.resolveurl" version="5.1.0" />
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="addon.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="pl">Wtyczka do oglądania poradników ze Spryciarze.pl</summary>
+            <summary lang="en">Addon for watching tutorials from Spryciarze.pl</summary>
+            <description lang="pl">
+            Przeglądaj i oglądaj tysiące poradników wideo ze strony Spryciarze.pl.
+            Kategorie obejmują: majsterkowanie, kulinaria, komputery, sztukę, sport i wiele więcej!
+
+            Funkcje:
+            - Pełna obsługa wszystkich kategorii i podkategorii
+            - Przeglądanie najnowszych i najpopularniejszych poradników
+            - Odtwarzanie wideo bezpośrednio przez wtyczkę YouTube
+            - Przejrzysta nawigacja
+        </description>
+            <description lang="en">
+            Browse and watch thousands of video tutorials from Spryciarze.pl.
+            Categories include: DIY, cooking, computers, art, sports and much more!
+
+            Features:
+            - Full support for all categories and subcategories
+            - Browse latest and most popular tutorials
+            - Video playback directly through YouTube plugin
+            - Clear navigation
+        </description>
+            <disclaimer lang="pl">Wtyczka wymaga zainstalowanej wtyczki YouTube. Wszystkie treści pochodzą ze strony Spryciarze.pl.</disclaimer>
+            <disclaimer lang="en">This addon requires YouTube plugin. All content from Spryciarze.pl.</disclaimer>
+            <platform>all</platform>
+            <license>GPL-3.0-only</license>
+            <website>https://www.spryciarze.pl</website>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="plugin.video.stalkervod1" name="Stalker VOD Client 1" version="2026.05.14.1" provider-name="rickey">
+        <requires>
+            <import addon="xbmc.python" version="3.0.1" />
+            <import addon="script.module.requests" version="2.27.1" />
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="addon_entry.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.service" library="service_entry.py" />
+        <extension point="xbmc.addon.metadata">
+            <reuselanguageinvoker>true</reuselanguageinvoker>
+            <platform>all</platform>
+            <summary lang="en_GB">Stalker VOD Client 1</summary>
+            <description lang="en_GB">Kodi Stalker client for accessing on demand videos and channels from Stalker middleware</description>
+            <license>GPL-3.0-or-later</license>
+            <language>en</language>
+            <source>https://github.com/rickeylohia/plugin.video.stalkervod1</source>
+            <website>https://github.com/rickeylohia/plugin.video.stalkervod1</website>
+            <assets>
+                <icon>resources/media/icon.png</icon>
+                <screenshot>resources/media/screenshot_1.png</screenshot>
+                <screenshot>resources/media/screenshot_2.png</screenshot>
+                <screenshot>resources/media/screenshot_3.png</screenshot>
+                <screenshot>resources/media/screenshot_4.png</screenshot>
+            </assets>
+            <news>
+v1.0.0  (2024-07-13)
+- Major version release with refactor of the menu options. Support for portal with separate menu option for Series.
+If using kodi Add to Favourites option, existing Favourites link would break.
+Ability to use Portal Favorite option for both VOD and TV Channels
+Add support for UpNext addon.
+
+v1.1.0  (2025-07-26)
+- Add search to directory listing for TV and VOD
+
+v1.2.0  (2025-08-06)
+- Fix TV stream issue for portal with use_http_tmp_link and use_load_balancing as false
+		</news>
+        </extension>
+    </addon>
+    <addon id="script.iskierek.repobuilder" name="Iskierek Repo Builder" version="2026.05.14.1" provider-name="Iskierek">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0" />
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="default.py">
+            <provides>executable</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Repo Builder</summary>
+            <description>Repo management toolkit</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+</addons>
